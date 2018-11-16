@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>FlowGraph</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectGuid>{4714AB5B-34D9-4DB3-9D13-4A5E07F24651}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\cs\Boot.cs" />
+    <Compile Include="src\Std.cs" />
+    <Compile Include="src\haxe\lang\Null.cs" />
+    <Compile Include="src\haxe\Log.cs" />
+    <Compile Include="src\Array.cs" />
+    <Compile Include="src\cs\internal\Function.cs" />
+    <Compile Include="src\test\Student.cs" />
+    <Compile Include="src\graph\Graph.cs" />
+    <Compile Include="src\haxe\format\JsonParser.cs" />
+    <Compile Include="src\haxe\io\Eof.cs" />
+    <Compile Include="src\serialization\ISerializable.cs" />
+    <Compile Include="src\core\slot\Slot.cs" />
+    <Compile Include="src\List.cs" />
+    <Compile Include="src\Type.cs" />
+    <Compile Include="src\haxe\format\JsonPrinter.cs" />
+    <Compile Include="src\Date.cs" />
+    <Compile Include="src\haxe\Unserializer.cs" />
+    <Compile Include="src\StringTools.cs" />
+    <Compile Include="src\Reflect.cs" />
+    <Compile Include="src\haxe\io\Bytes.cs" />
+    <Compile Include="src\haxe\Constraints.cs" />
+    <Compile Include="src\haxe\ds\ObjectMap.cs" />
+    <Compile Include="src\haxe\ds\GenericStack.cs" />
+    <Compile Include="src\haxe\ds\StringMap.cs" />
+    <Compile Include="src\cs\internal\StringExt.cs" />
+    <Compile Include="src\cs\internal\Runtime.cs" />
+    <Compile Include="src\cs\Lib.cs" />
+    <Compile Include="src\haxe\Serializer.cs" />
+    <Compile Include="src\cs\internal\HxObject.cs" />
+    <Compile Include="src\cs\internal\Exceptions.cs" />
+    <Compile Include="src\Math.cs" />
+    <Compile Include="src\cs\internal\FieldLookup.cs" />
+    <Compile Include="src\register\Register.cs" />
+    <Compile Include="src\Entry.cs" />
+    <Compile Include="src\graph\EndPoint.cs" />
+    <Compile Include="src\haxe\ds\IntMap.cs" />
+    <Compile Include="src\core\Datum.cs" />
+    <Compile Include="src\core\node\Node.cs" />
+    <Compile Include="src\StringBuf.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

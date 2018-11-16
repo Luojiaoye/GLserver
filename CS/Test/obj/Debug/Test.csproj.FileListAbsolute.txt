@@ -1,0 +1,10 @@
+E:\Haxeworkspace\FlowGraph\CS\Test\bin\Debug\Test.exe.config
+E:\Haxeworkspace\FlowGraph\CS\Test\bin\Debug\Test.exe
+E:\Haxeworkspace\FlowGraph\CS\Test\bin\Debug\Test.pdb
+E:\Haxeworkspace\FlowGraph\CS\Test\bin\Debug\FlowGraph.dll
+E:\Haxeworkspace\FlowGraph\CS\Test\bin\Debug\FlowGraph.pdb
+E:\Haxeworkspace\FlowGraph\CS\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\Haxeworkspace\FlowGraph\CS\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+E:\Haxeworkspace\FlowGraph\CS\Test\obj\Debug\Test.csproj.CopyComplete
+E:\Haxeworkspace\FlowGraph\CS\Test\obj\Debug\Test.exe
+E:\Haxeworkspace\FlowGraph\CS\Test\obj\Debug\Test.pdb

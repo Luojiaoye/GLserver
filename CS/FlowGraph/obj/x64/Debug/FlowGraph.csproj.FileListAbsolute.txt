@@ -1,0 +1,5 @@
+E:\Haxeworkspace\FlowGraph\CS\FlowGraph\bin\x64\Debug\FlowGraph.dll
+E:\Haxeworkspace\FlowGraph\CS\FlowGraph\bin\x64\Debug\FlowGraph.pdb
+E:\Haxeworkspace\FlowGraph\CS\FlowGraph\obj\x64\Debug\FlowGraph.csproj.CoreCompileInputs.cache
+E:\Haxeworkspace\FlowGraph\CS\FlowGraph\obj\x64\Debug\FlowGraph.dll
+E:\Haxeworkspace\FlowGraph\CS\FlowGraph\obj\x64\Debug\FlowGraph.pdb
